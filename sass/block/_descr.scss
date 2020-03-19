@@ -1,0 +1,37 @@
+
+.descr {
+  padding-bottom: 150px;
+  &__wrap {
+    padding: 25px 70px 25px 0px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__img {
+
+  }
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__title {
+    font-weight: bold;
+    line-height: 130%;
+    font-size: 40px;
+    color: #212353;
+  }
+  &__subtitle {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #4B5D68;
+    p {
+      width: 474px;
+    }
+  }
+}
