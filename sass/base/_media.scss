@@ -182,7 +182,7 @@
     }
     &__subtitle {
       p {
-        width: 214px;
+        width: 250px;
       }
     }
   }
@@ -235,6 +235,16 @@
         width: 160px;
         font-size: 14px;
       }
+    }
+  }
+  .footer {
+    &__block {
+      margin-bottom: 20px;
+    }
+    &__wrap {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
   .copyrigth {
