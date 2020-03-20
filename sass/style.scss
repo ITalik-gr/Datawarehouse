@@ -56,6 +56,9 @@ hr {
   background: #9C69E2;
   opacity: 0.2;
 }
+.m0 {
+  margin: 0!important;
+}
 @import '../sass/block/button';
 @import '../sass/block/footer';
 @import '../sass/block/header';
@@ -64,7 +67,8 @@ hr {
 @import '../sass/block/features';
 @import '../sass/block/testi';
 @import '../sass/block/try-for';
-
+@import '../sass/block/copyright';
+@import '../sass/base/media';
 
 
 

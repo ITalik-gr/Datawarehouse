@@ -1,0 +1,59 @@
+
+.footer {
+  font-family: 'Avenir';
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  &__logo {
+    margin-bottom: 65px;
+  }
+  &__title {
+    margin-bottom: 35px;
+    font-weight: 900;
+    font-size: 16px;
+    color: #212353;
+  } 
+  &__block {
+    display: flex;
+    flex-direction: column;
+  }
+  &__social {
+    display: flex;
+    flex-direction: row!important;
+    img {
+      margin-right: 15px;
+      width: 50px;
+      height: 50px;
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: gray; /* IE 6-9 */
+      transition: 0.3s all;
+      &:hover {
+        filter: none;
+      }
+    }
+  }
+  &__str {
+    display: flex;
+    flex-direction: column;
+    &__link {
+      margin-bottom: 25px;
+      font-weight: normal;
+      font-size: 17px;
+      color: #212353;
+      &:hover {
+        color: #212353;
+      }
+    }
+    &__adress {
+      margin-bottom: 15px;
+      font-weight: 900px;
+      font-size: 18px;
+    }
+  }
+}
