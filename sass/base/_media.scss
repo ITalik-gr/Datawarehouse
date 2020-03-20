@@ -242,7 +242,7 @@
       margin-right: 0;
     }
     &__btn-2 {
-      margin-top: 30px;
+      margin-left: 10px;
       img {
         display: none;
       }
@@ -293,6 +293,17 @@
         width: 200px;
         height: 40px;
       }
+    }
+  }
+}
+
+
+@media (max-width: 366px)  { //320 
+
+  .try-for {
+    &__btn-2 {
+      margin-left: 0;
+      margin-top: 15px;
     }
   }
 }
