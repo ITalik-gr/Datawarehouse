@@ -37,20 +37,20 @@
           
           <div id="menu">
             <ul class="nav__list-m">
-              <li class="nav__list__item"><a href="">About</a></li>
-              <li class="nav__list__item"><a href="">Help</a></li>
-              <li class="nav__list__item"><a href="">Features</a></li>
-              <li class="nav__list__item"><a href="">Signup</a></li>
+              <li class="nav__list__item"><a href="#descr">About</a></li>
+              <li class="nav__list__item"><a href="#footer">Help</a></li>
+              <li class="nav__list__item"><a href="#features">Features</a></li>
+              <li class="nav__list__item"><a href="#try-for">Signup</a></li>
             </ul>
           </div>
           <ul class="nav__list">
-            <li class="nav__list__item"><a href="">About</a></li>
-            <li class="nav__list__item"><a href="">Help</a></li>
-            <li class="nav__list__item"><a href="">Features</a></li>
-            <li class="nav__list__item"><a href="">Signup</a></li>
+            <li class="nav__list__item"><a href="#descr">About</a></li>
+            <li class="nav__list__item"><a href="#footer">Help</a></li>
+            <li class="nav__list__item"><a href="#features">Features</a></li>
+            <li class="nav__list__item"><a href="#try-for">Signup</a></li>
           </ul>
         </div>
-        <a href="#" class="nav__btn btn">Request Demo <img src="img/arrow-r.svg" alt=""></a>
+        <a href="#try-for" class="nav__btn btn">Request Demo <img src="img/arrow-r.svg" alt=""></a>
       </div>
       <div class="header__wrap">
         <div class="header__text">
@@ -70,7 +70,7 @@
       </div>
     </div>
   </div>
-  <div class="descr">
+  <div id="descr" class="descr">
     <div class="container">
       <div class="descr__wrap">
         <div class="descr__img">
@@ -239,7 +239,7 @@
       </div>
   </div>
   <hr>
-  <div class="try-for">
+  <div id="try-for" class="try-for">
     <div class="container">
       <div class="try-for__wrap">
         <div class="try-for__text">
@@ -251,8 +251,8 @@
           </div>
         </div>
         <div class="try-for__buttons">
-          <a href="#" class="btn try-for__btn">Learn more</a>
-          <a href="#" class="btn try-for__btn-2" >Request Demo <img src="img/arrow-r.svg" alt=""></a>
+          <a href="#" id="modalBtn_two" class="btn try-for__btn modalBtn_two">Learn more</a>
+          <a href="#" id="modalBtn" class="btn try-for__btn-2" >Request Demo <img src="img/arrow-r.svg" alt=""></a>
         </div>
       </div>
     </div>
@@ -304,7 +304,7 @@
           <div class="footer__str footer__social">
             <a href="#" class="footer__str__link"><img src="img/facebook.svg" alt=""></a>
             <a href="#" class="footer__str__link"><img src="img/twitter.svg" alt=""></a>
-            <a href="#" class="footer__str__link"><img class="m0" src="img/instagram.svg" alt=""></a>
+            <a target="_blank" href="https://www.instagram.com/sunrise_net_/?hl=ru" class="footer__str__link"><img class="m0" src="img/instagram.svg" alt=""></a>
           </div>
         </div>
       </div>
@@ -313,20 +313,53 @@
   <div class="copyrigth">
     <div class="container">
       <div class="copyrigth__wrap">
-        <div class="copyrigth__wrap__text">
-          © Datawarehouse™, 2020. All rights reserved. <br>
-          Company Registration Number: 21479524.
+        <div class="copyrigth__wrap__text">   
+          Разработка и поддержка сайта - <a target="_blank" href="https://italik-gr.github.io/Sunrise-v1/index.html">SunriseNet</a> <br>
+          Нужен сайт? Обращайтесь к нам
         </div>
         <a href=""><img src="img/chat.svg" alt="" class="copyrigth__wrap__img"></a>
       </div>
     </div>
   </div>
 
+  <div id="Modal" class="modal">
+    <div class="modal__body">
+      <div class="modal__title">
+        Try for free!
+      </div>
+      <div class="modal__subtitle">
+        <p>
+         <b> Get limited 1 week free try our features!</b> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, expedita cumque porro rerum repellat aliquam.
+        </p>
+      </div>
+      <form action="1" class="modal__form">
+        <input type="text" placeholder="Name" name="Name" id="#">
+        <input type="email" placeholder="Email" name="Email" id="#">
+        <a href="#" id="close" class="modal__form__btn close">Submit</a>
+      </form>
+    </div>
+  </div>
+<!-- 
+<div id="Modal_two" class="modal-two">
+  <div class="modal-two__body">
+    <div class="modal-two__title">
+      Information
+    </div>
+    <div class="modal-two__subtitle">
+      <p>
+        <b>Brief information about our trial period</b>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio assumenda, dolor quas voluptates nemo quis vitae nisi nobis aspernatur exercitationem perferendis quam harum ad esse nostrum odio. Amet repudiandae mollitia voluptates quis libero praesentium dolores, dolorum rerum dolor neque.
+      </p>
+    </div>
+    <a href="" id="close" class="modal-two__close close">Okay</a>
+  </div>
+</div>
+   -->
   <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
-  <script" src="//code.jquery.com/jquery-1.11.0.min.js"></script">
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="slick/slick.min.js"></script>
   <script src="js/script.js"></script>

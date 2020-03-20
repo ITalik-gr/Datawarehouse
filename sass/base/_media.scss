@@ -158,6 +158,26 @@
       }
     }
   }
+  .modal {
+    &__title {
+      font-size: 23px;
+    }
+    &__subtitle {
+      font-size: 15px;
+      p {
+        width: 250px;
+      }
+    }
+    &__body {
+      padding: 10px 20px;
+    }
+    &__form {
+      input {
+        width: 250px;
+        height: 45px;
+      }
+    }
+  }
 }
 
 @media (max-width: 576px)  { //320
@@ -252,6 +272,26 @@
       &__img {
         width: 40px;
 
+      }
+    }
+  }
+  .modal {
+    &__title {
+      font-size: 19px;
+    }
+    &__subtitle {
+      font-size: 13px;
+      p {
+        width: 230px;
+      }
+    }
+    &__body {
+      padding: 10px 20px;
+    }
+    &__form {
+      input {
+        width: 200px;
+        height: 40px;
       }
     }
   }
